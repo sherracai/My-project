@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(../images/background1.jpg);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: repeat-x;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    width: 80%;
+}
+aside{
+
+    width: 10%;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
+}
+nav {
+    background-color:rgba(138, 85, 47, 1);
+    overflow:auto ;
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(41, 25, 14, 0.459);
+}
+nav ul{
+    list-style-type: square;
+    padding: 0;
+}
+nav ul li{
+    text-align: left;
+    font-weight: bold;
+    display: inline;
+}
+nav a {
+display: inline-block;
+}
+nav a:link{color: rgb(255, 248, 241);}
+nav a:visited{color:rgb(66, 61, 13);}
+nav a:hover{color: burlywood;}
+nav a:active{color: blue;}
+/*content是对标题*/
+.content{
+    padding-top: 70px;
+    margin: 20px;
+}
+/*自我介绍和为什么选择前端部分图片*/
+.section1  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1 img{
+    max-width: 48%;
+}
+.font{
+    text-decoration: wavy;
+    text-shadow:0 4px 8px rgba(41, 25, 14, 0.459);
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section2 img{
+    max-width: 30%;
+}
+footer{
+    background-color: rgb(95, 59, 23);
+    font-weight: bolder;
+    padding: 20px;
+    color: wheat;
+}
